@@ -1,29 +1,29 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>io.kubernetes</groupId>
+	<groupId>io.kubesphere</groupId>
 	<artifactId>client-java-examples</artifactId>
-	<version>4.0.0-beta2-SNAPSHOT</version>
+	<version>1.0.0-alpha1-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 	<name>client-java-examples</name>
 	<url>https://github.com/kubernetes-client/java</url>
 	<parent>
-		<groupId>io.kubernetes</groupId>
+		<groupId>io.kubesphere</groupId>
 		<artifactId>client-java-parent</artifactId>
-		<version>4.0.0-beta2-SNAPSHOT</version>
+		<version>1.0.0-alpha1-SNAPSHOT</version>
 	</parent>
 	<dependencies>
 		<dependency>
-			<groupId>io.kubernetes</groupId>
+			<groupId>io.kubesphere</groupId>
 			<artifactId>client-java-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>io.kubernetes</groupId>
+			<groupId>io.kubesphere</groupId>
 			<artifactId>client-java</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>io.kubernetes</groupId>
+			<groupId>io.kubesphere</groupId>
 			<artifactId>client-java-proto</artifactId>
 			<version>${project.version}</version>
 		</dependency>
@@ -73,7 +73,7 @@
 						<configuration>
 							<archive>
 								<manifest>
-									<mainClass>io.kubernetes.client.examples.Example</mainClass>
+									<mainClass>io.kubesphere.client.examples.Example</mainClass>
 								</manifest>
 							</archive>
 							<descriptorRefs>

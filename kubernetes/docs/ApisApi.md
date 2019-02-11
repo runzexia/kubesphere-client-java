@@ -18,19 +18,9 @@ get available API versions
 ### Example
 ```java
 // Import classes:
-//import io.kubernetes.client.ApiClient;
-//import io.kubernetes.client.ApiException;
-//import io.kubernetes.client.Configuration;
-//import io.kubernetes.client.auth.*;
-//import io.kubernetes.client.apis.ApisApi;
+//import io.kubesphere.client.ApiException;
+//import io.kubesphere.client.apis.ApisApi;
 
-ApiClient defaultClient = Configuration.getDefaultApiClient();
-
-// Configure API key authorization: BearerToken
-ApiKeyAuth BearerToken = (ApiKeyAuth) defaultClient.getAuthentication("BearerToken");
-BearerToken.setApiKey("YOUR API KEY");
-// Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
-//BearerToken.setApiKeyPrefix("Token");
 
 ApisApi apiInstance = new ApisApi();
 try {
@@ -51,7 +41,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[BearerToken](../README.md#BearerToken)
+No authorization required
 
 ### HTTP request headers
 

@@ -64,7 +64,7 @@ import io.kubernetes.client.Configuration;
 import io.kubernetes.client.apis.CoreV1Api;
 import io.kubernetes.client.models.V1Pod;
 import io.kubernetes.client.models.V1PodList;
-import io.kubernetes.client.util.Config;
+import Config;
 
 import java.io.IOException;
 
@@ -91,8 +91,8 @@ import io.kubernetes.client.ApiException;
 import io.kubernetes.client.Configuration;
 import io.kubernetes.client.apis.CoreV1Api;
 import io.kubernetes.client.models.V1Namespace;
-import io.kubernetes.client.util.Config;
-import io.kubernetes.client.util.Watch;
+import Config;
+import Watch;
 
 import java.io.IOException;
 
@@ -118,7 +118,7 @@ public class WatchExample {
 More examples can be found in [examples](examples/) folder. To run examples, run this command:
 
 ```shell
-mvn exec:java -Dexec.mainClass="io.kubernetes.client.examples.Example"
+mvn exec:java -Dexec.mainClass="Example"
 ```
 
 ## Documentation
